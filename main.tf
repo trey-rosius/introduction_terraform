@@ -13,6 +13,7 @@ module "appsync" {
     default = null
 
   }
+  
   authentication_type = "API_KEY"
 
   logging_enabled = true
@@ -100,8 +101,6 @@ module "appsync" {
         "getPostFromTable"
       ]
     }
-
-
 
   }
 
